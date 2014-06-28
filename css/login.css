@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login {
+	background-color: #eee;
+	width: 300px;
+	margin: 0 auto;
+	border: 1px solid #aaa;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+	padding: 20px;
+}
+#login h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#login #form1 label {
+	display: block;
+	font-size: 16px;
+	line-height: 25px;
+}
+#login #form1 input[type=text], #form1 input[type=password] {
+	padding: 2px;
+	font-size: 16px;
+	line-height: 20px;
+	width: 273px;
+}
+
+#login #form1 input[type=submit] {
+
+	width: 280px;
+	padding: 5px;
+
+    /* Disables default styling */
+    border: none;
+    background: #00B6FF;
+    color: #fff;
+
+    /* You need to set font, font size and cursor for buttons */
+    font-size: 18px;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    cursor: pointer;
+	margin-top: 15px;
+
+    padding: 8px 13px;
+    font-weight: bold;
+
+}
+
+#login #form1 input[type=submit] {
+    border-radius: 5px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    box-shadow:
+        0 0 0 1px #0086ba inset, /* Outer bevel */
+        0 0 0 2px #6cdcea inset, /* Inner bevel */
+        0 30px 20px -18px rgba(255,255,255,0.65) inset, /* Inner gradient */
+        1px 1px 3px rgba(0,0,0,0.2) /* Drop shadow */
+    ;
+
+    -webkit-border-radius: 5px;
+    -webkit-text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow:
+        0 0 0 1px #0086ba inset, /* Outer bevel */
+        0 0 0 2px #6cdcea inset, /* Inner bevel */
+        0 30px 20px -18px rgba(255,255,255,0.65) inset, /* Inner gradient */
+        1px 1px 3px rgba(0,0,0,0.2) /* Drop shadow */
+    ;
+}
+
+#login .success {
+	color: #060;
+}
+#login .error {
+	color: red;
+}
+
+#login #message{
+	padding-left: 10px;
+}
